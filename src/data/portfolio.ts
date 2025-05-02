@@ -11,12 +11,12 @@ export interface Education {
   school: string;
   degree: string;
   period: string;
-  gpa: string;
   logo: string;
   highlights: {
     title: string;
     description: string;
   }[];
+  gpa?: string;
 }
 
 export interface Project {
