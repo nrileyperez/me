@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/NewPortfolio/',  // Replace with your repository name
+  base: '/me/',  // Updated to match your repository name
   server: {
     port: 3000
   }
