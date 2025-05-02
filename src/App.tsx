@@ -1,8 +1,8 @@
 import Navbar from './components/Navbar'
-import Hero from './components/Hero.tsx'
-import WorkExperience from './components/WorkExperience.tsx'
+import Hero from './components/Hero'
+import WorkExperience from './components/WorkExperience'
 import Education from './components/Education'
-import Projects from './components/Projects.tsx'
+import Projects from './components/Projects'
 import { portfolioData } from './data/portfolio'
 
 function App() {
