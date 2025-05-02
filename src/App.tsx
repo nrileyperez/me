@@ -7,18 +7,14 @@ import { portfolioData } from './data/portfolio'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-50 overflow-x-hidden">
+    <div className="min-h-screen bg-gray-50">
       <Navbar />
-      <main className="pt-16 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Hero data={portfolioData.personal} />
-        <div className="bg-white rounded-lg shadow-sm my-8">
-          <WorkExperience data={portfolioData.workExperience} />
-        </div>
+        <WorkExperience data={portfolioData.workExperience} />
         <Education data={portfolioData.education} />
-        <div className="bg-white rounded-lg shadow-sm my-8">
-          <Projects data={portfolioData.projects} />
-        </div>
-      </main>
+        <Projects data={portfolioData.projects} />
+      </div>
     </div>
   )
 }
