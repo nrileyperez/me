@@ -8,8 +8,8 @@ interface HeroProps {
     socials: {
       github: string;
       linkedin: string;
-      twitter: string;
-      youtube: string;
+      twitter?: string;
+      youtube?: string;
     };
     resumePath: string;
   };
@@ -121,7 +121,7 @@ const Hero = ({ data }: HeroProps) => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <motion.img
-            src="/logos/myiconimg.png"
+            src="logos/myiconimg.png"
             alt="Profile"
             className="w-64 h-64 rounded-full object-cover shadow-lg"
             whileHover={{ scale: 1.05 }}
