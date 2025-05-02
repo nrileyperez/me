@@ -39,7 +39,7 @@ export const portfolioData = {
       github: "https://github.com/nrileyperez",
       linkedin: "http://linkedin.com/in/noahperez510/",
     },
-    resumePath: "resume/NRPresume.pdf"
+    resumePath: "resume/resume.pdf"
   },
   workExperience: [
     {
