@@ -39,11 +39,11 @@ export const portfolioData = {
       github: "https://github.com/nrileyperez",
       linkedin: "http://linkedin.com/in/noahperez510/",
     },
-    resumePath: "resume/resume.pdf"
+    resumePath: "resume/resumeX.pdf"
   },
   workExperience: [
     {
-      company: "Autra Solutions",
+      company: "Autra Solutions", 
       role: "Developer, IT Coordinator",
       period: "Feb 2025 - Present",
       description: "Autra Solutions is a consulting services branch of Autra Inc. , currently supporting Torc Robotics (Torc.ai) with critical autonomous vehicle software and data pipeline integrations.",
